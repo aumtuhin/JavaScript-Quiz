@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Javascript Quiz</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    	<header class="text-center">
+    		<h1>Simple Javascript quiz</h1>
+    		<p>Test your <strong>Javascript </strong>fundamentals</p>
+    	</header>
+    	<form name="quizForm" onsubmit="return submitAnswer()">
+    		<h3>1. In which HTML element do we put in javascript code?</h3>
+    		<input type="radio" name="q1" value="a" id="qla">a. &lt;js&gt;<br>
+    		<input type="radio" name="q1" value="b" id="q1a">b. &lt;script&gt;<br>
+    		<input type="radio" name="q1" value="c" id="q1a">c. &lt;body&gt;<br>
+    		<input type="radio" name="q1" value="d" id="q1a">d. &lt;link&gt;<br>
+
+    		<h3>2. Which attribute is used to refference an external Javascript file?</h3>
+    		<input type="radio" name="q2" value="a" id="q2a">a. src<br>
+    		<input type="radio" name="q2" value="b" id="q2a">b. rel<br>
+    		<input type="radio" name="q2" value="c" id="q2a">c. type<br>
+    		<input type="radio" name="q2" value="d" id="q2a">d. href<br>
+
+    		<h3>3. How would you write "Hello" in an alert box?</h3>
+    		<input type="radio" name="q3" value="a" id="q3a">a. msg("Hello");<br>
+    		<input type="radio" name="q3" value="b" id="q3a">b. alertBox("Hello");<br>
+    		<input type="radio" name="q3" value="c" id="q3a">c. document.write("Hello");<br>
+    		<input type="radio" name="q3" value="d" id="q3a">d. alert("Hello");<br>
+
+    		<h3>4. Javascript is directly related to "Java" programming language</h3>
+    		<input type="radio" name="q4" value="a" id="q4a">a. True<br>
+    		<input type="radio" name="q4" value="b" id="q4a">b. False<br>
+
+    		<h3>5. A variable in Javascript must start with which special charecter?</h3>
+    		<input type="radio" name="q5" value="a" id="q5a">a. @<br>
+    		<input type="radio" name="q5" value="b" id="q5a">b. $<br>
+    		<input type="radio" name="q5" value="c" id="q5a">c. #<br>
+    		<input type="radio" name="q5" value="d" id="q5a">d. No special charecter<br>
+
+    		<h3>6.________JavaScript is also called client-side JavaScript</h3>
+    		<input type="radio" name="q6" value="a" id="q6a">a. Microsoft<br>
+    		<input type="radio" name="q6" value="b" id="q6a">b. Navigator<br>
+    		<input type="radio" name="q6" value="c" id="q6a">c. Livewire<br>
+    		<input type="radio" name="q6" value="d" id="q6a">d. Native<br>
+
+    		<h3>7.________JavaScript is also called server-side JavaScript.</h3>
+    		<input type="radio" name="q7" value="a" id="q7a">a. Microsoft<br>
+    		<input type="radio" name="q7" value="b" id="q7a">b. Navigator<br>
+    		<input type="radio" name="q7" value="c" id="q7a">c. Livewire<br>
+    		<input type="radio" name="q7" value="d" id="q7a">d. Native<br>
+
+    		<h3>8.What are variables used for in JavaScript Programs?</h3>
+    		<input type="radio" name="q8" value="a" id="q8a">a. Storing numbers, dates, or other values<br>
+    		<input type="radio" name="q8" value="b" id="q8a">b. Varying randomly<br>
+    		<input type="radio" name="q8" value="c" id="q8a">c. Causing high-school algebra flashbacks<br>
+    		<input type="radio" name="q8" value="d" id="q8a">d. None of the above<br>
+
+    		<h3>9.Which of the following are capabilities of functions in JavaScript?</h3>
+    		<input type="radio" name="q9" value="a" id="q9a">a. Return a value<br>
+    		<input type="radio" name="q9" value="b" id="q9a">b. Accept parameters and Return a value<br>
+    		<input type="radio" name="q9" value="c" id="q9a">c. Accept parameters<br>
+    		<input type="radio" name="q9" value="d" id="q9a">d. None of the above<br>
+
+    		<h3>10.Which of the following is not a valid JavaScript variable name?</h3>
+    		<input type="radio" name="q10" value="a" id="q10a">a. 2names<br>
+    		<input type="radio" name="q10" value="b" id="q10a">b. _first_and_last_names<br>
+    		<input type="radio" name="q10" value="c" id="q10a">c. FirstAndLast<br>
+    		<input type="radio" name="q10" value="d" id="q10a">d. None of the above<br>
+    		<br><br>
+
+
+    		<input class="btn" type="submit" value="Submit Answer">
+    		<div id="results"></div>
+    	</form>
+    	<section class="footer text-center">
+          <p>Copyright &copy 2016, All Rights Reserved by Dev.Tuhin</p>	
+        </section>
+    </div>
+<script src="js/myscript.js"></script>
+</body>
+</html>
